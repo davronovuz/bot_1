@@ -8,7 +8,7 @@ from keyboards.default.menu import menu_start
 
 @dp.message_handler(CommandStart())
 async def bot_start(message: types.Message):
-    await message.answer("Assalomu alaykum xush kelibsiz",reply_markup=menu_start)
+    await message.answer("Salom xush kelibsiz",reply_markup=menu_start)
 
 
 @dp.message_handler(content_types=types.ContentType.VIDEO)
